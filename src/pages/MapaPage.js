@@ -8,7 +8,8 @@ const puntoInicial = {
 };
 
 export const MapaPage = () => {
-    
+
+
   const { coords, setRef } = useMapbox(puntoInicial);
 
   return (
